@@ -53,10 +53,10 @@ export default class Detail extends Vue {
     
     rowList = [{}];
 
-    @Watch('$route')
-    routeChange(val: Route, oldVal: Route): void {
-        console.log(val, oldVal);
-    }
+    // @Watch('$route')
+    // routeChange(val: Route, oldVal: Route): void {
+    //     console.log(val, oldVal);
+    // }
 
     // markedT;
 

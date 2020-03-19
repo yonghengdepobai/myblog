@@ -71,7 +71,9 @@
             // router.push({name: 'Detail', params: {path: row.path}})
 
             // console.log(this['$route'], this, this['$route'].replace, this['$router'], '///////', this['$router'].push);
-            console.log(this['$router'].push);
+            // console.log(this['$router'].push);
+            // index 根据当前页面变化
+            index = (parseInt(index) + (this.pageOption.page - 1) * this.pageSize) + '';
             this['$router'].push({name: 'Detail', params: {index: index,path: row.path}});
         }
 

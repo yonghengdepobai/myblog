@@ -32,3 +32,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+sudo apachectl start  //开始
+sudo apachectl restart  //重启
+sudo apachectl stop  //停止

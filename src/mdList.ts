@@ -27,6 +27,15 @@ const textArr = [
  export const mdList = [
     {
         instructions: '',
+        title: 'table历程',
+        mood: textArr[getRandom()],
+        time: '2020-3-15',
+        type: typeArr[0],
+        direction: '笔记',
+        path: `${baseUrl}/component/table.md`,
+    },
+    {
+        instructions: '',
         title: 'sort方法分析',
         mood: textArr[getRandom()],
         time: '2020-3-7',
@@ -63,12 +72,39 @@ const textArr = [
     },
     {
         instructions: '',
-        title: '单元测试_Angular.md',
+        title: '单元测试_Angular',
         mood: textArr[getRandom()],
         time: '2020-3-3',
         type: typeArr[1],
         direction: '笔记',
         path: `${baseUrl}/js/单元测试_Angular.md`,
+    },
+    {
+        instructions: '',
+        title: '上传npm包',
+        mood: textArr[getRandom()],
+        time: '2020-1-3',
+        type: typeArr[1],
+        direction: '笔记',
+        path: `${baseUrl}/npm/上传npm包.md`,
+    },// history.md 
+    {
+        instructions: '',
+        title: 'history',
+        mood: textArr[getRandom()],
+        time: '2019-6-3',
+        type: typeArr[1],
+        direction: '笔记',
+        path: `${baseUrl}/html/history.md`,
+    },
+    {
+        instructions: '',
+        title: '程序说明文档',
+        mood: textArr[getRandom()],
+        time: '2019-5-6',
+        type: typeArr[1],
+        direction: '笔记',
+        path: `${baseUrl}/other/程序说明文档.md`,
     },
 ]
 
